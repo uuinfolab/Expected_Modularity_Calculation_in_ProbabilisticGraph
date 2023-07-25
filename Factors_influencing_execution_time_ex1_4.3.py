@@ -19,8 +19,8 @@ from Save_Load import save_graph,load_graph,save_com,load_com
 
 # load graph
 
-node, edge_position, edge_possibility=load_graph('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/graph.npy')
-com = np.load('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/cluster.npy',allow_pickle=True)
+node, edge_position, edge_possibility=load_graph('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/graph.npy')
+com = np.load('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/cluster.npy',allow_pickle=True)
 # Exp of number of communities
 
 # number of communities from 2 to 26
