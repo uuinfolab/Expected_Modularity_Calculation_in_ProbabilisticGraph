@@ -23,7 +23,7 @@ Python 3.9.13
 Python 3.8.10
 ```
 ## Run Code
-´´´
+```
 cd /.../.../Expected_Modularity_Calculation_in_ProbabilisticGraph-main
 
 python3 Accuracy_and_execution_time_4.1.py
@@ -34,12 +34,12 @@ python3 Comparison_with_sampling_CCS_4.2.3.py
 python3 Comparison_with_sampling_LCCS_4.2.3.py
 python3 Factors_influencing_execution_time_ex1_4.3.py
 python3 Factors_influencing_execution_time_ex2_4.3.py
-´´´
+```
 ## Citation
 
 If you find the repository helpful, please consider citing our papers:
-´´´
+```
 Fast and accurate algorithms to calculate expected modularity in probabilistic networks
 Xin Shen, Matteo Magnani, Christian Rohner, Fiona Skerman
-´´´
+```
 
