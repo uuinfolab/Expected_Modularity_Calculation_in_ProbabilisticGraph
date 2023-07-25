@@ -29,9 +29,8 @@ for i in range(3,6):
     
     # load graph and communities
     
-    node, edge_position, edge_possibility=load_graph('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/'+str(i*3)+'nodes.npy')
-    #com=load_com('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/'+str(i*3)+'_cluster.npy')
-    com = np.load('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/'+str(i*3)+'_cluster.npy',allow_pickle=True)
+    node, edge_position, edge_possibility=load_graph('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/'+str(i*3)+'nodes.npy')
+    com = np.load('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/'+str(i*3)+'_cluster.npy',allow_pickle=True)
     # assign edge probabilities as 0.3
     
     edge_possibility=[0.3 for i in range(len(edge_position))]
