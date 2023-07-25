@@ -25,7 +25,9 @@ Python 3.8.10
 ## Run Code
 ´´´
 cd /.../.../Expected_Modularity_Calculation_in_ProbabilisticGraph-main
+
 python3 Accuracy_and_execution_time_4.1.py
+
 python3 Comparison_with_weighting_4.2.1.py
 python3 Comparison_with_thresholding_4.2.2.py
 python3 Comparison_with_sampling_CCS_4.2.3.py
