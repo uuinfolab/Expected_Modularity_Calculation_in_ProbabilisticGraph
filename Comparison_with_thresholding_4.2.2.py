@@ -18,8 +18,8 @@ from Save_Load import save_graph,load_graph,save_com,load_com
 
 # load graph, parameters: k=3, n=27, l=9, p_in=0.99, p_out=0.01
 
-node, edge_position, edge_possibility=load_graph('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/3Community9nodes_each0.99within0.01betweenEntr=0.npy')
-com=load_com('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/3Community9nodes_each0.99within0.01between_clusterEntr=0.npy')
+node, edge_position, edge_possibility=load_graph('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/3Community9nodes_each0.99within0.01betweenEntr=0.npy')
+com=load_com('.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/3Community9nodes_each0.99within0.01between_clusterEntr=0.npy')
 
 # initialization
 
