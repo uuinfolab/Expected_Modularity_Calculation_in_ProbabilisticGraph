@@ -42,7 +42,7 @@ python3 Factors_influencing_execution_time_ex2_4.3.py
 ```
 ## Citation
 
-If you find the repository helpful, please consider citing our papers:
+If you find the repository helpful, please consider citing our papers (draft):
 ```
 Fast and accurate algorithms to calculate expected modularity in probabilistic networks
 Xin Shen, Matteo Magnani, Christian Rohner, Fiona Skerman
