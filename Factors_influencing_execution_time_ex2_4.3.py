@@ -24,7 +24,7 @@ from Save_Load import save_graph,load_graph,save_com,load_com
 
 # read edges of FFN 
 
-filename='/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/ffn.csv'
+filename='/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/ffn.csv'
 f=open(filename,"r")
 lines=f.readlines()
 edge_position_ffn=[]
@@ -52,7 +52,7 @@ columns = defaultdict(list) # each value in each column is appended to a list
 #c = 6: cluster_ffn_c=6.csv
 '''
 
-with open('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/cluster_ffn_c=6.csv') as f:
+with open('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/cluster_ffn_c=6.csv') as f:
     reader = csv.DictReader(f) # read rows into a dictionary format
     for row in reader: # read a row as {column1: value1, column2: value2,...}
         for (k,v) in row.items(): # go over each column name and value 
@@ -108,7 +108,7 @@ end1=time.time()
 
 # read edges
 
-filename='/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/ba.csv'
+filename='/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/ba.csv'
 f=open(filename,"r")
 lines=f.readlines()
 edge_position_BA=[]
@@ -129,7 +129,7 @@ columns = defaultdict(list) # each value in each column is appended to a list
 #c = 6: cluster_ba_c=6.csv
 '''
 
-with open('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/cluster_ba_c=5.csv') as f:
+with open('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/cluster_ba_c=5.csv') as f:
     reader = csv.DictReader(f) # read rows into a dictionary format
     for row in reader: # read a row as {column1: value1, column2: value2,...}
         for (k,v) in row.items(): # go over each column name and value 
@@ -188,7 +188,7 @@ end1=time.time()
 
 # read edges
 
-filename='/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/er.csv'
+filename='/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/er.csv'
 f=open(filename,"r")
 lines=f.readlines()
 edge_position_ER=[]
@@ -208,7 +208,7 @@ columns = defaultdict(list) # each value in each column is appended to a list
 #c = 6: cluster_er_c=6.csv
 '''
 
-with open('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/cluster_er_c=5.csv') as f:
+with open('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/cluster_er_c=5.csv') as f:
     reader = csv.DictReader(f) # read rows into a dictionary format
     for row in reader: # read a row as {column1: value1, column2: value2,...}
         for (k,v) in row.items(): # go over each column name and value 
@@ -267,7 +267,7 @@ end1=time.time()
 
 # read edges
 
-filename='/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/sw.csv'
+filename='/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/sw.csv'
 f=open(filename,"r")
 lines=f.readlines()
 edge_position_SW=[]
@@ -292,7 +292,7 @@ columns = defaultdict(list) # each value in each column is appended to a list
 #c = 5: cluster_sw_c=5.csv
 #c = 6: cluster_sw_c=6.csv
 '''
-with open('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/cluster_sw_c=5.csv') as f:
+with open('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/cluster_sw_c=5.csv') as f:
     reader = csv.DictReader(f) # read rows into a dictionary format
     for row in reader: # read a row as {column1: value1, column2: value2,...}
         for (k,v) in row.items(): # go over each column name and value 
