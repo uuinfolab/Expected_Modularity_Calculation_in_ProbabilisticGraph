@@ -64,8 +64,8 @@ i=6
 
 # load graph and communities
 
-node, edge_position, edge_possibility=load_graph(str(i*3)+'nodes.npy')
-com=load_com(str(i*3)+'_cluster.npy')
+node, edge_position, edge_possibility=load_graph('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/'+str(i*3)+'nodes.npy')
+com=load_com('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/'+str(i*3)+'_cluster.npy')
 
 # assign edge probabilities as 0.3
 
