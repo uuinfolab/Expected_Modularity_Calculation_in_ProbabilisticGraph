@@ -24,8 +24,8 @@ from Save_Load import save_graph,load_graph,save_com,load_com
 # In[2]:
 
 
-node, edge_position, edge_possibility=load_graph('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/3Community9nodes_each0.72within0.12between.npy')
-com=load_com('/Users/xinsh758/Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/3Community9nodes_each0.72within0.12between_cluster.npy')
+node, edge_position, edge_possibility=load_graph('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/3Community9nodes_each0.72within0.12between.npy')
+com=load_com('/.../Downloads/Expected_Modularity_Calculation_in_ProbabilisticGraph-main/datasets/3Community9nodes_each0.72within0.12between_cluster.npy')
 
 
 # In[3]:
