@@ -36,7 +36,7 @@ python3 Factors_influencing_execution_time_ex2_4.3.py
 
 python3 Accuracy_and_execution_time_4.1.py
 
-python3 Accuracy_and_execution_time_Ex2_4.1.py
+python3 Accuracy_and_execution_time_ex2_4.1.py
 
 python3 Comparison_with_sampling_CCS_4.2.3.py
 
