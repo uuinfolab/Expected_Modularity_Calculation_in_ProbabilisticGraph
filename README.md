@@ -26,6 +26,23 @@ Python 3.8.10
 ```
 cd /.../.../Expected_Modularity_Calculation_in_ProbabilisticGraph-main
 
+python3 Accuracy and execution time_4.1.py
+
+python3 Accuracy and execution time_Ex2_4.1.py
+
+python3 Comparison_with_weighting_4.2.1.py
+
+python3 Comparison_with_thresholding_4.2.2.py
+
+python3 Comparison_with_sampling_CCS_4.2.3.py
+
+python3 Comparison_with_sampling_LCCS_4.2.3.py
+
+python3 Factors_influencing_execution_time_ex1_4.3.py
+
+python3 Factors_influencing_execution_time_ex2_4.3.py
+
+
 python3 Comparison_with_weighting_4.2.1.py
 
 python3 Comparison_with_thresholding_4.2.2.py
