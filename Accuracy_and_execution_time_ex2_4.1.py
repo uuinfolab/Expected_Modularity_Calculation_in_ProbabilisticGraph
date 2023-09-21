@@ -221,17 +221,17 @@ fig, ax = plt.subplots()
 
 x=[10,15,20,23]+list(np.arange(200,1100,100))+list(np.arange(1100,2700,500))
 print(x)
-t=[0.0009,0.0021,0.0044,0.0074,2.777,9.779,24.265,47.686,83.091,155.835,233.461,288.008,443.471,534.077,1787.5306,3972.3575, 7553.0115]
+t=[0.000538,0.0012652,0.002458,0.0034940,2.777,9.779,24.265,47.686,83.091,155.835,233.461,288.008,443.471,534.077,1787.5306,3972.3575, 7553.0115]
 plt.plot(x,t,'go--',color='r',linewidth=2,markersize=10,mfc='none',label=r'$APWP^{EMOD}$')
 t2=[0.3813,14.759,560.034,5125.3251]
 x2=[10,15,20,23]
 
 x3=[10,15,20,25,30]
-t3=[0.0016660690307617188,
- 0.031000137329101562,
- 0.19469213485717773,
- 1.4496428966522217,
- 20.115010738372803]
+t3=[0.0054061,
+ 0.050260305,
+ 0.4887776374816,
+ 5.86133384704,
+ 86.383778333]
 plt.plot(x3,t3,ls='--',marker='v',color='black',linewidth=2,markersize=10,mfc='none',label=r'$PWP^{EMOD}$')
 plt.plot(x2,t2,ls='--',marker='d',color='b',linewidth=2,markersize=10,mfc='none',label='BF')
 plt.ylabel('Time [s]')
@@ -241,11 +241,16 @@ ax.set_yscale('log')
 ax.set_xlim(xmin=0)
 plt.legend()
 plt.title('Time comparison according to different sizes of networks')
-plt.savefig('size_Net.pdf')
+plt.savefig('size_Net_v2.pdf')
 plt.show()
 
 
 # In[ ]:
+
+
+
+
+
 
 
 

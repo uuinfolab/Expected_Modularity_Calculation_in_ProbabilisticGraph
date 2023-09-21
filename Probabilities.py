@@ -4,7 +4,11 @@
 # In[1]:
 
 
+from operator import mul
+
+
 def PB(k,p):
+    from sympy.utilities.iterables import multiset_permutations
     '''
     calculate partitions' probabilities using poisson binomial distribution
     
@@ -25,29 +29,26 @@ def PB(k,p):
     if len(p)==0:
         return 1
     
-    # loop all possible worlds in a partition
-    
-    for i in range(2**len(p)):
-        
-        l_permu=bin(i)[2:].zfill(len(p))
-        
-        #if the number of edges in possible world is equal to k
-        
-        if  sum([int(j) for j in l_permu])==k:
-            
-            re=1
-            
-            # calculate probability of this possible world
-            
-            for edge_id in range(len(l_permu)):
+    # calculate sum of possible world probabilities
 
-                if int(l_permu[edge_id])==1:
-                    
-                    re*=p[edge_id]
-                else:
-                   
-                    re*=(1-p[edge_id])
-            result+=re
+    l_permu=[1] * k + [0] * (len(p) - k)
+
+    for perm in multiset_permutations(l_permu):
+
+        re=1
+            
+        # calculate probability of this possible world
+        
+        for edge_id in range(len(perm)):
+
+            if int(perm[edge_id])==1:
+                
+                re*=p[edge_id]
+            else:
+                
+                re*=(1-p[edge_id])
+        result+=re
+
                    
     return result
 
