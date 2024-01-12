@@ -138,7 +138,7 @@ def APWP(edge,p,c):
                     # the graph is an empty graph:
                     
                     if ec==0 and ecc_==0 and ec_==0:
-                        Sum=0
+                        Sum+=0
                     else:
                        
                         Sum+=(ec/((ec+ecc_+ec_))-((2*ec+ecc_)**2/(4*(ec+ecc_+ec_)**2)))*p1*p2*p3
@@ -278,7 +278,7 @@ def PWP(edge,p,c):
                     # when the graph is empty
                     
                     if ec==0 and ecc_==0 and ec_==0:
-                        Sum=0
+                        Sum+=0
                     else:
                        
                         Sum+=(ec/((ec+ecc_+ec_))-((2*ec+ecc_)**2/(4*(ec+ecc_+ec_)**2)))*p1*p2*p3
